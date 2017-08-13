@@ -1,11 +1,11 @@
-package com.backoffice.service;
+package com.backoffice.usecases;
 
-import com.backoffice.model.Campanha;
-import com.backoffice.model.Cliente;
-import com.backoffice.exception.ClienteJaExisteException;
-import com.backoffice.exception.ClienteNaoEncontradoException;
-import com.backoffice.exception.TimeCoracaoIncompativelException;
-import com.backoffice.repository.ClienteRepository;
+import com.backoffice.entities.Campanha;
+import com.backoffice.entities.Cliente;
+import com.backoffice.entities.exception.ClienteJaExisteException;
+import com.backoffice.entities.exception.ClienteNaoEncontradoException;
+import com.backoffice.entities.exception.TimeCoracaoIncompativelException;
+import com.backoffice.gateway.repository.ClienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;

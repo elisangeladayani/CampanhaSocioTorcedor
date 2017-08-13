@@ -1,4 +1,4 @@
-package com.backoffice.model;
+package com.backoffice.entities;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;

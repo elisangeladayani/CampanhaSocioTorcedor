@@ -1,4 +1,4 @@
-package com.backoffice.exception;
+package com.backoffice.entities.exception;
 
 public class TimeCoracaoIncompativelException extends Exception {
 

@@ -1,6 +1,6 @@
-package com.backoffice.repository;
+package com.backoffice.gateway.repository;
 
-import com.backoffice.model.Campanha;
+import com.backoffice.entities.Campanha;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 

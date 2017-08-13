@@ -1,4 +1,4 @@
-package com.backoffice.model;
+package com.backoffice.entities;
 
 import com.fasterxml.jackson.annotation.*;
 import org.hibernate.validator.constraints.Email;

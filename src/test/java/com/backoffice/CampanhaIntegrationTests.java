@@ -1,13 +1,12 @@
 package com.backoffice;
 
-import com.backoffice.controller.CampanhaController;
-import com.backoffice.exception.CampanhaExpiradaException;
-import com.backoffice.exception.CampanhaNaoEncontradaException;
-import com.backoffice.model.Campanha;
-import com.backoffice.repository.CampanhaRepository;
-import com.backoffice.repository.TimeRepository;
+import com.backoffice.http.CampanhaController;
+import com.backoffice.entities.exception.CampanhaExpiradaException;
+import com.backoffice.entities.exception.CampanhaNaoEncontradaException;
+import com.backoffice.entities.Campanha;
+import com.backoffice.gateway.repository.CampanhaRepository;
+import com.backoffice.gateway.repository.TimeRepository;
 import org.joda.time.DateTime;
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

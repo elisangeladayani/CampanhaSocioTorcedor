@@ -1,4 +1,4 @@
-package com.backoffice.model;
+package com.backoffice.entities;
 
 public class CampanhasDisponiveisClienteProjection {
     private final String message = "Cliente com email já cadastrado.";

@@ -1,6 +1,6 @@
-package com.backoffice.repository;
+package com.backoffice.gateway.repository;
 
-import com.backoffice.model.Cliente;
+import com.backoffice.entities.Cliente;
 import org.springframework.data.repository.CrudRepository;
 
 public interface ClienteRepository extends CrudRepository<Cliente, Long> {

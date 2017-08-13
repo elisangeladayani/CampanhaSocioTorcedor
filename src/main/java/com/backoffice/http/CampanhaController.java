@@ -1,9 +1,9 @@
-package com.backoffice.controller;
+package com.backoffice.http;
 
-import com.backoffice.exception.CampanhaExpiradaException;
-import com.backoffice.exception.CampanhaNaoEncontradaException;
-import com.backoffice.model.Campanha;
-import com.backoffice.service.CampanhaService;
+import com.backoffice.entities.exception.CampanhaExpiradaException;
+import com.backoffice.entities.exception.CampanhaNaoEncontradaException;
+import com.backoffice.entities.Campanha;
+import com.backoffice.usecases.CampanhaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

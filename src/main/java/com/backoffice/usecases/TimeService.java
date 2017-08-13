@@ -1,7 +1,7 @@
-package com.backoffice.service;
+package com.backoffice.usecases;
 
-import com.backoffice.model.Time;
-import com.backoffice.repository.TimeRepository;
+import com.backoffice.entities.Time;
+import com.backoffice.gateway.repository.TimeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

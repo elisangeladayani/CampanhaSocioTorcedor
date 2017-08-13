@@ -1,18 +1,14 @@
-package com.backoffice.service;
+package com.backoffice.usecases;
 
-import com.backoffice.exception.CampanhaExpiradaException;
-import com.backoffice.exception.CampanhaNaoEncontradaException;
-import com.backoffice.model.Campanha;
-import com.backoffice.repository.CampanhaRepository;
+import com.backoffice.entities.exception.CampanhaExpiradaException;
+import com.backoffice.entities.exception.CampanhaNaoEncontradaException;
+import com.backoffice.entities.Campanha;
+import com.backoffice.gateway.repository.CampanhaRepository;
 import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
-import java.time.Instant;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;

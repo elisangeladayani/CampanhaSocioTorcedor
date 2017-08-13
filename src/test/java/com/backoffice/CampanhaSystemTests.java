@@ -1,8 +1,8 @@
 package com.backoffice;
 
-import com.backoffice.model.Campanha;
-import com.backoffice.repository.CampanhaRepository;
-import com.backoffice.repository.TimeRepository;
+import com.backoffice.entities.Campanha;
+import com.backoffice.gateway.repository.CampanhaRepository;
+import com.backoffice.gateway.repository.TimeRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;

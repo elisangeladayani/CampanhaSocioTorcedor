@@ -1,11 +1,12 @@
-package com.backoffice.controller;
+package com.backoffice.http;
 
-import com.backoffice.model.Campanha;
-import com.backoffice.model.CampanhasDisponiveisClienteProjection;
-import com.backoffice.model.Cliente;
+import com.backoffice.entities.Campanha;
+import com.backoffice.entities.CampanhasDisponiveisClienteProjection;
+import com.backoffice.entities.Cliente;
+import com.backoffice.entities.exception.*;
 import com.backoffice.exception.*;
-import com.backoffice.service.CampanhaService;
-import com.backoffice.service.ClienteService;
+import com.backoffice.usecases.CampanhaService;
+import com.backoffice.usecases.ClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

@@ -1,6 +1,6 @@
-package com.backoffice.controller;
+package com.backoffice.http;
 
-import com.backoffice.service.TimeService;
+import com.backoffice.usecases.TimeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

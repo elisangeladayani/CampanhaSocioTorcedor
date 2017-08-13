@@ -1,15 +1,15 @@
 package com.backoffice;
 
-import com.backoffice.controller.ClienteController;
-import com.backoffice.exception.CampanhaNaoEncontradaException;
-import com.backoffice.exception.ClienteNaoEncontradoException;
-import com.backoffice.exception.TimeCoracaoIncompativelException;
-import com.backoffice.model.Campanha;
-import com.backoffice.model.CampanhasDisponiveisClienteProjection;
-import com.backoffice.model.Cliente;
-import com.backoffice.repository.CampanhaRepository;
-import com.backoffice.repository.ClienteRepository;
-import com.backoffice.repository.TimeRepository;
+import com.backoffice.http.ClienteController;
+import com.backoffice.entities.exception.CampanhaNaoEncontradaException;
+import com.backoffice.entities.exception.ClienteNaoEncontradoException;
+import com.backoffice.entities.exception.TimeCoracaoIncompativelException;
+import com.backoffice.entities.Campanha;
+import com.backoffice.entities.CampanhasDisponiveisClienteProjection;
+import com.backoffice.entities.Cliente;
+import com.backoffice.gateway.repository.CampanhaRepository;
+import com.backoffice.gateway.repository.ClienteRepository;
+import com.backoffice.gateway.repository.TimeRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
